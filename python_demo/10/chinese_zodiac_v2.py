@@ -15,7 +15,7 @@ chinese_zodiac = '猴鸡狗猪鼠牛虎兔龙蛇马羊'
 #
 # for year in range(2000,2019):
 #     print('%s 年的生肖是 %s' %(year, chinese_zodiac[year % 12]))
-# import time
+import time
 num = 5
 while True:
     num = num + 1
@@ -24,4 +24,4 @@ while True:
         continue
 
     print(num)
-    # time.sleep(1)
+    time.sleep(1)
